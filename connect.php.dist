@@ -1,0 +1,9 @@
+<?php
+
+$db_name = "";
+$db_username = "";
+$db_password = "";
+
+define ('DSN', 'mysql:host=localhost;dbname='.$db_name);
+define ('USER', $db_username);
+define ('PASSWORD', $db_password);
