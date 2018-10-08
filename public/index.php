@@ -145,8 +145,8 @@ if (isset($_POST) and !empty($_POST)) {
                                placeholder="Prénom"
                                name="firstname"
                                id="form_firstname"
-                               value="<?= $_POST['firstname'] ?? "" ?>
-                        ">
+                               value="<?= $_POST['firstname'] ?? "" ?>"
+                        >
                         <small class="text-danger"><?= $formError['firstname'] ?? "" ?></small>
                     </div>
                     <div class="col-12 mt-3">
